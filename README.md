@@ -477,7 +477,8 @@ Information Gathering & Vulnerability Scanning
          OR        
          
          `python /usr/share/doc/python-impacket-doc/examples /samrdump.py $ip`
-         
+      -   Looging in as anonymous SMB User
+          `smbget smb://anonymous:anonymous@$ip/anonymous/$file'
 
     -   RID Cycling - Null Sessions  
         `ridenum.py $ip 500 50000 dict.txt`
