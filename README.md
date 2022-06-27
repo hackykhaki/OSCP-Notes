@@ -23,7 +23,8 @@ Kali Linux
     `passwd`
 
 -   Verify a service is running and listening  
-    `netstat -antp |grep apache`
+    `netstat -antp |grep apache` or
+    `ss -antlp | grep ssh`
 
 -   Start a service  
     `systemctl start ssh  `
