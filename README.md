@@ -36,6 +36,9 @@ Kali Linux
 -   Stop a service  
     `systemctl stop ssh`
 
+-   List all services and their status
+    'systemctl list-unit-files'
+    
 -   Unzip a gz file  
     `gunzip access.log.gz`
 
