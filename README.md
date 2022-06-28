@@ -59,7 +59,7 @@ Kali Linux
     `apt-cache search pakage_name`
     
 -   Adding to Bash Environment Variables
-    `export nameofvariable = what is the variable` e.g `export b= 192.168.1.1` you can now do `ping $b`
+    `export name_of_variable = the_variable` e.g `export b= 192.168.1.1` you can now do `ping $b`
     
 -   String manipulation
 
