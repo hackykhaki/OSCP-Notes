@@ -38,7 +38,7 @@ Kali Linux
     `systemctl stop ssh`
 
 -   List all services and their status
-    'systemctl list-unit-files'
+    `systemctl list-unit-files`
     
 -   Unzip a gz file  
     `gunzip access.log.gz`
@@ -54,6 +54,9 @@ Kali Linux
 
 -   Open a webpage  
     `curl http://www.cisco.com`
+    
+-   Search for package in apt
+    `apt-cache search pakage_name`
 
 -   String manipulation
 
